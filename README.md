@@ -17,3 +17,6 @@ Chegou a hora de você construir um portfólio ainda mais rico e impressionar fu
 https://aka.ms/ai900-speech
 
 https://aka.ms/ai900-text-analysis
+
+
+https://speech.microsoft.com/portal
