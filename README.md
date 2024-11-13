@@ -20,3 +20,5 @@ https://aka.ms/ai900-text-analysis
 
 
 https://speech.microsoft.com/portal
+
+[Language Studio](https://language.cognitive.azure.com/)
