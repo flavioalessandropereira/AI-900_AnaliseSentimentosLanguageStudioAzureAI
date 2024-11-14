@@ -1,24 +1,49 @@
-# AI-900_AnaliseSentimentosLanguageStudioAzureAI
+# 🚀 Bootcamp Microsoft Azure AI-900 - Language Studio
 
-###Como Entregar esse projeto?
- 
+Este repositório é dedicado ao aprendizado dos recursos de Language Studio no Microsoft Azure, explorados no Bootcamp AI-900. Vamos explorar ferramentas poderosas de Processamento de Linguagem Natural (NLP) que o Azure oferece, ideais para tarefas como extração de frases-chave, análise de sentimentos, reconhecimento de entidades e classificação de linguagem.
 
-Chegou a hora de você construir um portfólio ainda mais rico e impressionar futuros recrutadores, para isso é sempre importante mostrar os resultados do seu esforço e como você os obteve deixando claro o seu racional, para isso faça da seguinte maneira:
+## 📋 Conteúdo
 
-1. Crie um novo repositório no github com um nome a sua preferência
-2. Crie uma pasta chamada 'inputs' e crie um documento de texto com algumas sentenças
-3. Crie um arquivo chamado readme.md , deixe alguns prints descreva o processo, alguns insights e possibilidades que você aprendeu durante o conteúdo após a IA analisar suas sentenças
-4. Compartilhe conosco o link desse repositório através do botão 'entregar projeto'
+1. 🔊 [Speech Studio](#-speech-studio)
+2. 💬 [Analyze Sentiment and Mine Opinions](#-analyze-sentiment-and-mine-opinions)
 
+---
 
+## 🔊 [Speech Studio](https://speech.microsoft.com/portal)
 
-### links
+O Speech Studio oferece recursos de reconhecimento de fala e conversão de texto em fala, permitindo que você transforme áudio em texto e vice-versa de forma prática e precisa.
 
-https://aka.ms/ai900-speech
+- 🎧 Arquivo: [audio1.mp4](./inputs/audio1.mp4)
+- 📈 Resultado: [audio1_result.jpg](./inputs/audio1_result.JPG)
 
-https://aka.ms/ai900-text-analysis
+![Resultado do áudio transcrito](./inputs/audio1_result.JPG)
 
+---
 
-https://speech.microsoft.com/portal
+## 💬 Analyze Sentiment and Mine Opinions
 
-[Language Studio](https://language.cognitive.azure.com/)
+Para iniciar a análise de sentimentos e extração de opiniões, siga os passos abaixo:
+
+1. **Criar recurso de linguagem no portal [Azure](https://portal.azure.com)**:
+   - Acesse **AI + Machine Learning > Language services** no portal.
+2. **Configurar o serviço no [Cognitive Azure](https://language.cognitive.azure.com)**:
+   - Selecione:
+     - 🗂️ **Azure directory**: Default Directory, o diretório que você está usando
+     - 📜 **Azure subscription**: a assinatura que está utilizando
+     - 📘 **Resource type**: Language
+     - 📝 **Resource name**: o recurso Language Service que você acabou de criar
+3. Após selecionar o recurso, clique em **Create new** e selecione **Classify text/Analyze sentiment and mine opinions**.
+
+- 📄 Arquivo de teste: [text1.txt](./inputs/text1.txt)
+- 📊 Resultado: [text1_result.jpg](./inputs/text1_result.JPG)
+
+![Resultado da Análise de Sentimentos](./inputs/text1_result.JPG)
+
+---
+
+## 🚀 Começando
+
+Para explorar essas ferramentas, siga os tutoriais abaixo:
+
+- [🔊 Speech Studio](https://aka.ms/ai900-speech)
+- [💬 Analyze Sentiment and Mine Opinions](https://aka.ms/ai900-text-analysis) 
